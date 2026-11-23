@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lifeprint Themes
 // @namespace    http://tampermonkey.net/
-// @version      0.3.2
+// @version      0.3.2.2
 // @description  Makes the website Lifeprint have a dark mode - and several other themes.
 // @author       DanSavageGames
 // @match        https://www.lifeprint.com*/*
@@ -335,14 +335,14 @@
     .lps-gif__copy {
         border: ${border};
         border-radius: ${borderRadius};
-        color: ${color};Text File.txt
+        color: ${color};
         background: ${background};
     }
 
     .lps-gif__copy:hover {
         border: ${border};
         color: ${background};
-        background: ${colorSub};
+        background: ${color};
     }
 
     .lps-donate {
