@@ -22,3 +22,4 @@ And you should have [Lifeprint](https://www.lifeprint.com/) themed to your likin
 # To-Do's
 - Make a clean UI for switching themes without having to edit the script directly
 - Make an easy-to-follow schema to create new themes
+- Fix the Google Custom Search Engine thing where it remains unthemed
