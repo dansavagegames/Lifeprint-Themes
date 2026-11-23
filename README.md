@@ -18,3 +18,7 @@ The script is now installed.
 9. Save again ("CTRL+S" / File > Save)
 
 And you should have [Lifeprint](https://www.lifeprint.com/) themed to your liking. Enjoy!
+
+# To-Do's
+- Make a clean UI for switching themes without having to edit the script directly
+- Make an easy-to-follow schema to create new themes
