@@ -49,42 +49,43 @@
              *       You can change the accent color. Go to Catppuccin's palettes and click+paste the accent color from Mocha.
              */
 
-            case("default-dark"): // Literally just the Lifeprint but dark mode, reversed colors and allat
-                accent = "#000000";
-                background = "#000000";
-                backgroundObject = background;
-                color = "#ffffff";
-                colorSub = "#3b4a59";
-                border = "2px solid " + color;
-                borderRadius = "12px";
-                font = "Arial, Helvetica, sans-serif";
+        case("default-dark"): // Literally just the Lifeprint but dark mode, reversed colors and allat
+            accent = "#000000";
+            background = "#000000";
+            backgroundObject = background;
+            color = "#ffffff";
+            colorSub = "#3b4a59";
+            border = "2px solid " + color;
+            borderRadius = "12px";
+            font = "Arial, Helvetica, sans-serif";
 
-                red = "#ff0000";
-                orange = "#8a4b00";
-                yellow = "#ffff00";
-                green = "#006b3c";
-                blue = "#1a4fb8";
-                purple = "#6b3fa0";
+            red = "#ff0000";
+            orange = "#8a4b00";
+            yellow = "#ffff00";
+            green = "#006b3c";
+            blue = "#1a4fb8";
+            purple = "#6b3fa0";
 
-                break;
-            case("rose-pine"):
-                accent = "#c4a7e7";
-                background = "#1f1d2e";
-                backgroundObject = "#191724";
-                color = "#e0def4";
-                colorSub = "#6e6a86";
-                border = "1px solid #26233a";
-                borderRadius = "1.5rem"
-                font = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"";
+            break;
 
-                red = "#eb6f92";
-                orange = "#ebbcba";
-                yellow = "#f6c177";
-                green = "#31748f";
-                blue = "#9ccfd8";
-                purple = "#c4a7e7";
+        case("rose-pine"):
+            accent = "#c4a7e7";
+            background = "#1f1d2e";
+            backgroundObject = "#191724";
+            color = "#e0def4";
+            colorSub = "#6e6a86";
+            border = "1px solid #26233a";
+            borderRadius = "1.5rem"
+            font = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"";
 
-                break;
+            red = "#eb6f92";
+            orange = "#ebbcba";
+            yellow = "#f6c177";
+            green = "#31748f";
+            blue = "#9ccfd8";
+            purple = "#c4a7e7";
+
+            break;
     }
 
     const theme = `
@@ -183,21 +184,21 @@
     }
 
     #custom-search-input {
-    border: ${border};
-    color: ${color};
-    background: ${backgroundObject};
+        border: ${border};
+        color: ${color};
+        background: ${backgroundObject};
     }
 
     #custom-search-input:focus {
-    box-shadow: none;
-    color: ${color};
-    background: ${backgroundObject};
+        box-shadow: none;
+        color: ${color};
+        background: ${backgroundObject};
     }
 
     #custom-search-input:hover {
-    outline: 3px solid ${accent};
-    color: ${color};
-    background: ${backgroundObject};
+        outline: 3px solid ${accent};
+        color: ${color};
+        background: ${backgroundObject};
     }
 
     .lesson-nav {
@@ -395,8 +396,8 @@
     }
 
     #gsc-i-id1 {
-    color: ${color} !important;
-    background: ${backgroundObject};
+        color: ${color} !important;
+        background: ${backgroundObject};
     }
 
     #gsc-i-id1::-webkit-input-placeholder {
@@ -443,7 +444,7 @@
         color: ${color};
         background: ${backgroundObject};
     }
-    Text File.txt
+
     .video-controls button {
         border: ${border};
         border-radius: ${borderRadius};
